@@ -1,0 +1,30 @@
+body {
+    font-family : Arial, HElvetica, sans-serif;
+    background-color: bisque;    
+}
+
+.head {
+    color: rgb(0,0,0);
+    background-color: rgb(255,150,0);
+    text-align: center;
+}
+
+.one {
+    color: rgb(8, 206, 173);
+    font-weight: 1000;
+}
+
+.two {
+    font-size: 25px;
+}
+
+#links {
+    font-size : 25px;
+    background-color: beige;
+    text-align: center;    
+}
+
+#links a{
+    color: rgb(129, 106, 231);
+    font-weight: 800;
+}
