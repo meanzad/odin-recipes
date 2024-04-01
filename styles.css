@@ -27,8 +27,19 @@ body {
 #lists a{
     color: rgb(129, 106, 231);
     font-weight: 800;
+    background-color: pink;
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid white;
+    display: inline-block;
+    text-decoration: none;
 }
 
 p {
     font-size: 20px;
+}
+
+.image {
+    display: block;
+    margin: 0px auto;
 }
