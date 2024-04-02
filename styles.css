@@ -7,6 +7,12 @@ body {
     color: rgb(0,0,0);
     background-color: rgb(255,150,0);
     text-align: center;
+    padding: 10px;
+}
+
+.p{
+    text-align: center;
+    font-size: 200px;
 }
 
 .one {
@@ -35,8 +41,9 @@ body {
     text-decoration: none;
 }
 
-p {
+.description p {
     font-size: 20px;
+    text-align: center;
 }
 
 .image {
