@@ -1,6 +1,7 @@
 body {
     font-family : Arial, HElvetica, sans-serif;
-    background-color: bisque;    
+    background-color: bisque;
+
 }
 
 .head {
@@ -8,6 +9,7 @@ body {
     background-color: rgb(255,150,0);
     text-align: center;
     padding: 10px;
+    
 }
 
 .p{
@@ -22,15 +24,26 @@ body {
 
 .two {
     font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#lists {
+.lists,.lists1 {
     font-size : 25px;
     background-color: beige;
-    text-align: center;    
+    text-align: center;
+    height: 200px;
+
 }
 
-#lists a{
+.lists{
+    padding-top: 40px;
+}
+
+.lists1{
+    padding: 15px;
+}
+
+.lists1 a{
     color: rgb(129, 106, 231);
     font-weight: 800;
     background-color: pink;
@@ -39,6 +52,8 @@ body {
     border: 2px solid white;
     display: inline-block;
     text-decoration: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .description p {
@@ -50,3 +65,17 @@ body {
     display: block;
     margin: 0px auto;
 }
+
+.list-container {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 10px;
+    
+}
+
+.container {
+    text-align: center;
+}
+
